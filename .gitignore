@@ -1,0 +1,15 @@
+# build output
+*.exe
+*.test
+*.zip
+dist/
+
+# test previews (README screenshots live in docs/screenshots)
+preview/
+
+# editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

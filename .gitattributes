@@ -1,0 +1,7 @@
+# keep line endings consistent between Windows and other systems
+* text=auto
+*.ps1 text eol=crlf
+*.sh text eol=lf
+*.png binary
+*.ico binary
+*.syso binary

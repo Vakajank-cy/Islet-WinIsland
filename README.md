@@ -176,7 +176,7 @@ You need [Go](https://go.dev/dl/) 1.24 or newer. All dependencies are included i
 
 **On Linux / macOS (cross-compile):**
 ```sh
-./build.sh
+sh ./build.sh
 ```
 
 Both produce `Islet.exe`. Run the tests with `go test .`. To re-render the README screenshots, run `ISLET_SHOTS=1 go test -run ReadmeShots .`.
